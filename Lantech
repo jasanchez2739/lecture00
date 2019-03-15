@@ -1,0 +1,59 @@
+        h1 {
+        	font-family: Times , serif;
+        	font-size: 5vw;
+        	font-weight: bold;
+        	color: blue;
+        	text-align: center;
+        	margin: 50px;
+        }
+
+        table {
+        	border: .2vw solid black;
+        	border-collapse: collapse;
+        	size:50%;
+
+        }
+
+        th {
+        	background-color: lightgray
+        }
+
+        td {
+        	font-size:1vw;
+        	border: .1vw solid black;
+        	padding: 10px;
+        	text-align: center;
+        }
+        #heading{
+        	font-size: 2vw;
+        }
+        #project{
+        	font-size: 2.5vw;
+        }
+
+
+
+        .column  {
+        	float: left;
+        	width: 15%;
+
+        	
+        	padding:15px;
+        
+        
+            }
+        #heading:after {
+        	content:"";
+        	display: table;
+        	clear: both;
+        }
+                @media (max-width: 700px) {
+        	.column{
+        		width:50%;
+        	}
+        }
+
+        .text {
+        	color: white;
+        	font-weight: bolder;
+        }
